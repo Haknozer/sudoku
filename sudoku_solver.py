@@ -96,7 +96,14 @@ def solve(board):
     return False   
 
 get_sudoku(board)
+print("\n \n \n")
 sudoku_print(board)
 solve(board)
-print("------------------------")
+print("\n \n \n")
 sudoku_print(board)
+
+while(True):
+    print("Çıkmak için enter'a basın")
+
+    if input() == "":
+        break
